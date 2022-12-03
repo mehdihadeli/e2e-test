@@ -18,9 +18,9 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program>
             // extend service collection
         });
 
-        // builder.Configure(app =>
-        // {
-        //     // extend application builder
-        // });
+        builder.Configure(app =>
+        {
+            // extend application builder
+        });
     }
 }
